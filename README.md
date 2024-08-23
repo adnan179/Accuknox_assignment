@@ -11,7 +11,7 @@
 ## Steps to run it locally:
 1. **Clone the GitHub repo:**
    ```bash
-   git clone (URL))
+   git clone https://github.com/adnan179/Accuknox_assignment.git
 1. **Create a Vite (React) project::**
    ```bash
    git clone (URL)
