@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+.white-shade {
+  @apply bg-[#e2e6f3];
+}
+
+.blue-shade {
+  @apply bg-[#e6e6f6];
+}
+.rows {
+  @apply flex flex-row;
+}
+
+.csmp-container {
+  @apply flex flex-col bg-white px-6 py-3 rounded-xl 
+  md:w-[350px] md:h-[250px];
+}
+.cwpp-container {
+  @apply flex flex-col bg-white px-6 py-3 rounded-xl w-[350px] h-[200px];
+}
+
+.graph-heading {
+  @apply text-black/90 text-lg font-semibold;
+}
