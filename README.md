@@ -1,8 +1,50 @@
-# React + Vite
+# Accuknox Assignment(By adnan)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Hosted link:** [Accuknox Assignment](https://accuknox-assignment-nine.vercel.app/)
 
-Currently, two official plugins are available:
+## Tech Stack Used
+- React (Vite framework)
+- React Chart.js 2
+- Chart.js
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Steps to run it locally:
+1. **Clone the GitHub repo:**
+   ```bash
+   git clone (URL))
+1. **Create a Vite (React) project::**
+   ```bash
+   git clone (URL)
+2. **Clone the GitHub repo:**
+   ```bash
+   npm create vite@latest
+
+3. **Install all dependencies:**
+   ```bash
+   npm install
+4. **Initialize Tailwind CSS:**
+   ```bash
+   npx tailwindcss init -p
+5. **Update tailwind.config.js with the following configuration:**
+   ```bash
+   /** @type {import('tailwindcss').Config} */
+    export default {
+    content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+      extend: {},
+    },
+    plugins: [],
+  }
+
+6. **Update index.css with the following content:**
+   ```bash
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+7. **Start the development server:**
+   ```bash
+    npm run dev
+
